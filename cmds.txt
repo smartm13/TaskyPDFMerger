@@ -1,0 +1,7 @@
+"C:\Users\smartm13\Anaconda3\Scripts\conda.exe" create -n pypdf python=3.6 anaconda
+"C:\Users\smartm13\Anaconda3\Scripts\activate.bat" pypdf
+>conda install -n pypdf reportlab
+>pip install pypdf2
+python pdfOverPrint.py &&AUTO
+
+"C:\Users\smartm13\Anaconda3\Scripts\deactivate.bat"
